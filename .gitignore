@@ -1,0 +1,63 @@
+# ── Python ──────────────────────────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# ── Virtual environments ─────────────────────────────────────────────────────
+.venv/
+venv/
+env/
+.env
+
+# ── Dataset files (too large for git) ───────────────────────────────────────
+data/raw/*.csv
+data/raw/*.zip
+!data/raw/.gitkeep
+!data/raw/paysim_test_sample.csv
+
+# ── Generated outputs ────────────────────────────────────────────────────────
+outputs/*.csv
+outputs/*.db
+!outputs/kpi_summary.csv
+!outputs/data_quality.csv
+!outputs/dashboard.png
+!outputs/fintech_analytics.xlsx
+!outputs/.gitkeep
+
+# ── Reports ──────────────────────────────────────────────────────────────────
+reports/*.html
+reports/*.pdf
+
+# ── Jupyter ──────────────────────────────────────────────────────────────────
+.ipynb_checkpoints/
+
+# ── OS artifacts ─────────────────────────────────────────────────────────────
+.DS_Store
+Thumbs.db
+
+# ── IDE ──────────────────────────────────────────────────────────────────────
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# ── Credentials (NEVER commit) ───────────────────────────────────────────────
+*.json
+!requirements*.json
+*.pem
+*.key
+credentials/
+.env.local
+.env.production
+
+# ── pytest / coverage ────────────────────────────────────────────────────────
+.pytest_cache/
+htmlcov/
+.coverage
+coverage.xml
