@@ -1,0 +1,11 @@
+flag,count,total,pct
+flag_duplicate,5,10005,0.05
+flag_missing_critical,0,10005,0.0
+flag_negative_amount,5,10005,0.05
+flag_zero_amount,3,10005,0.03
+flag_invalid_step,0,10005,0.0
+flag_invalid_type,0,10005,0.0
+flag_orig_balance_mismatch,491,10005,4.9075
+flag_dest_balance_mismatch,8,10005,0.08
+flag_negative_balance,0,10005,0.0
+any_quality_flag,496,10005,4.9575

@@ -1,0 +1,17 @@
+kpi,value
+total_transactions,10005
+total_amount,99939941.92
+avg_amount,9989.0
+median_amount,6855.11
+fraud_count,76
+fraud_rate_pct,0.7596
+data_quality_exceptions,496
+data_quality_rate_pct,4.9575
+estimated_revenue_MODELED,225738.34
+fee_rate_assumption_pct,0.25
+estimated_revenue_note,MODELED value. Assumes a flat fee of 0.2500% per transaction. NOT actual business revenue.
+refund_count_SYNTHETIC,62
+refund_total_SYNTHETIC,504429.05
+refund_approved_count_SYNTHETIC,49
+refund_rate_pct_SYNTHETIC,0.6197
+refund_note,SYNTHETIC — generated for analytical demonstration only.
